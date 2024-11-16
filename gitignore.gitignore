@@ -1,0 +1,4 @@
+json.sqlite
+.env
+config.json
+node_modules
