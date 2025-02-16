@@ -1,5 +1,5 @@
 FROM ghcr.io/puppeteer/puppeteer:24.2.1
-
+USER root
 # Instalujemy Chrome
 RUN apt-get update && apt-get install -y google-chrome-stable
 
