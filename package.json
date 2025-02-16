@@ -10,11 +10,16 @@
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^2.4.0",
+    "axios": "^1.7.9",
     "better-sqlite3": "^11.5.0",
     "currency-converter-lt": "^2.0.1",
-    "discord.js": "^14.16.3",
-    "dotenv": "^16.4.5",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "node-fetch": "^2.7.0",
     "number-converter": "^1.2.1",
+    "puppeteer": "^24.2.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "quick.db": "^9.1.6",
     "wanakana": "^5.3.1"
   },
