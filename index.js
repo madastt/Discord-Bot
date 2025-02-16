@@ -3,6 +3,7 @@ require("dotenv").config();
 const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, Events, GatewayIntentBits,} = require('discord.js');
+const keep_alive = require('./keep_alive.js')
 const {QuickDB} = require(`quick.db`)
 const db = new QuickDB()
 
